@@ -1,0 +1,33 @@
+.WeatherWeek {
+    display: flex;
+    position: relative;
+    flex-wrap: nowrap;
+}
+
+.WeatherWeek-wrapper {
+    display: flex;
+}
+
+.WeatherWeek-arrow {
+    width: 24px;
+    height: 24px;
+    display: block;
+    position: absolute;
+    background: url('../../img/arrow.svg') no-repeat;
+    background-size: contain;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.WeatherWeek-arrow.WeatherWeek-left-arrow {
+    left: -20px;
+}
+
+.WeatherWeek-arrow.WeatherWeek-right-arrow {
+    transform: rotate(180deg);
+    right: -20px;
+}
+
+.WeatherWeek-arrow.hidden {
+  display: none;
+}

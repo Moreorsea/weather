@@ -1,0 +1,30 @@
+.Weather {
+    width: 100vw;
+    height: 100vh;
+    background-color: #373AF5;
+    background: url('../../img/weather-background.png') no-repeat;
+    background-size: cover;
+}
+
+.Weather h1 {
+    color: #ffffff;
+    width: 775px;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 102px;
+    line-height: 122px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Weather h1 span:last-child {
+    text-align: right;
+}
+
+.WeatherWrapper {
+    display: flex;
+    width: 1600px;
+    margin: 50px auto;
+    justify-content: space-between;
+}

@@ -1,0 +1,71 @@
+select:focus {
+  outline: 2px solid #373AF5;
+}
+
+.SelectCity {
+    position: relative;
+    width: 48%;
+    margin: 0 4% 20px 0;
+}
+
+.SelectCity-select {
+    background-color: rgba(128, 131, 164, 0.06);
+    border: 2px solid rgba(128, 131, 164, 0.2);
+    border-radius: 8px;
+    padding: 5px 10px;
+    position: relative;
+}
+
+.SelectCity-select::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    background: url('../../img/arrow.svg') no-repeat;
+    background-size: cover;
+    top: 10px;
+    right: 10px;
+    transform: rotate(-90deg);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.SelectCity-select.active::before {
+    transform: rotate(90deg);
+    transition: transform 0.3s;
+}
+
+.SelectCity-list {
+    /* display: none; */
+    width: 300px;
+}
+
+.SelectCity-select.active + .SelectCity-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    border:  2px solid rgba(128, 131, 164, 0.06);
+    box-shadow: 0px 2px 4px rgba(4, 5, 73, 0.16), 14px 14px 20px rgba(5, 6, 114, 0.08);
+    border-radius: 8px;
+    /* position: absolute; */
+    width: 100%;
+    /* top: 42px; */
+    /* height: 160px; */
+    /* overflow-y: scroll; */
+    /* z-index: 10; */
+}
+
+.SelectCity-list li {
+    color: #2C2D76;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 10px 10px 10px;
+}
+
+.SelectCity-list li:hover {
+    cursor: pointer;
+    background-color: rgba(128, 131, 164, 0.06);
+}

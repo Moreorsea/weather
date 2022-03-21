@@ -1,0 +1,43 @@
+.DayList {
+    overflow: hidden;
+}
+
+.DayList-wrapper {
+  display: flex;
+}
+
+.DayCard {
+  background: #373AF5;
+  box-shadow: 0px 4px 4px rgba(4, 5, 73, 0.25), 14px 14px 20px rgba(5, 6, 114, 0.2);
+  border-radius: 8px;
+  padding: 40px 20px;
+  color: #ffffff;
+  font-weight: bold;
+  width: 174px;
+  margin: 0 20px 0 0;
+  flex-shrink: 0;
+}
+
+.DayCard-weather {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.DayCard-date {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  padding: 0;
+}
+
+.DayCard-temp {
+  font-size: 32px;
+  line-height: 32px;
+  text-align: right;
+  padding: 0;
+}
+
+.slick-track {
+  display: flex;
+}

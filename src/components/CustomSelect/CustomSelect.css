@@ -1,0 +1,43 @@
+.Custom-Select {
+  position: relative;
+}
+
+.Custom-Select__input {
+  border: 2px solid rgba(128, 131, 164, 0.2);
+  border-radius: 8px;
+  background: rgba(128, 131, 164, 0.06);
+  padding: 10px;
+  width: 300px;
+}
+
+.Custom-Select__input p {
+  margin: 0;
+}
+
+.Custom-Select__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 160px;
+  overflow-y: auto;
+  box-shadow: 0px 2px 4px rgba(4, 5, 73, 0.16), 14px 14px 20px rgba(5, 6, 114, 0.08);
+  border-radius: 8px;
+  border: 2px solid rgba(128, 131, 164, 0.06);
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  background-color: #ffffff;
+  display: none;
+}
+
+.show .Custom-Select__list {
+  display: block;
+}
+
+.Custom-Select__item {
+  padding: 5px 10px 5px 10px;
+}
+
+.Custom-Select__item:hover {
+  background: rgba(128, 131, 164, 0.06);
+}

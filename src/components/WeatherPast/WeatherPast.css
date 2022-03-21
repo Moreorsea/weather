@@ -1,0 +1,35 @@
+.WeatherPast {
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(4, 5, 73, 0.25), 14px 14px 20px rgba(5, 6, 114, 0.2);
+    border-radius: 8px;
+    width: 660px;
+    padding: 50px;
+    flex-shrink: 0;
+}
+
+.WeatherPast h2 {
+    color: #2C2D76;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+select {
+  border: 2px solid rgba(128, 131, 164, 0.2);
+  border-radius: 8px;
+  background: rgba(128, 131, 164, 0.06);
+  padding: 10px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+option {
+  background-color: #ffffff;
+  color: #2C2D76;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px;
+}
+
+option:hover {
+  background-color: rgba(128, 131, 164, 0.06);
+}
